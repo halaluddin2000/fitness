@@ -75,10 +75,6 @@ li > a {
   border-radius: 42px;
   border: 1px solid #fff;
 }
-/* .hero-img {
-  width: 100%;
-  height: 100%;
-} */
 .hero-img img {
   position: relative;
   width: 100%;
@@ -143,5 +139,59 @@ li > a {
 .workout-videos-contenct p {
   margin-top: 10px;
   font-size: 13px;
+  font-weight: 400;
+}
+/* responsive tablet */
+@media screen and (min-width: 540px) and (max-width: 720px) {
+  .hero-section {
+    display: grid;
+    margin: auto;
+  }
+}
+/* responsive mobile */
+/* -------gym-card----- */
+.gym-section {
+  margin: 50px 90px;
+  margin-top: 70px;
+}
+.gym-content {
+  width: 591px;
+  margin: auto;
+  text-align: center;
+}
+.gym-content h2 {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 0px;
+}
+.gym-content p {
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+}
+.gym-card {
+  display: flex;
+  margin: auto;
+  margin-top: 50px;
+  gap: 30px;
+}
+.gym-card img {
+  border-radius: 50%;
+}
+.gym-card {
+  text-align: center;
+}
+.gym-card h3 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.gym-card p {
+  margin-top: 10px;
+  width: 231px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
   font-weight: 400;
 }
