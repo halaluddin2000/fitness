@@ -390,3 +390,22 @@ th {
   font-size: 14px;
   font-weight: 400;
 }
+.bmi-input input {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  font-weight: 400;
+  padding: 10px 18px 10px 10px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+}
+.bmi-input-fast {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+
+.width-input-full input {
+  margin-bottom: 15px;
+  margin-top: 5px;
+  padding: 12px 245px 12px 12px;
+}
