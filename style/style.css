@@ -1,0 +1,31 @@
+* {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  color: #ffff;
+  background: #111;
+}
+header {
+  margin: 50px 90px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav h2 {
+  color: #e6533c;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 800;
+}
+nav ul {
+  display: flex;
+}
+ul > li {
+  list-style: none;
+  margin-right: 47px;
+}
+
+li > a {
+  text-decoration: none;
+}
