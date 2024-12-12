@@ -195,3 +195,86 @@ li > a {
   font-size: 14px;
   font-weight: 400;
 }
+
+/* responsive */
+
+/* workout-section style */
+.workout-section {
+  border-radius: 18px;
+  background: #222;
+  margin: 50px 90px;
+  display: flex;
+  padding: 30px 56px;
+  gap: 40px;
+}
+.workout-content {
+  width: 543px;
+}
+.workout-content h2 {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 0px;
+}
+.workout-content p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+.workout-img {
+  height: 80%;
+  width: 80%;
+}
+.workout-img img {
+  height: 100%;
+  width: 90%;
+  margin-left: 80px;
+  border-radius: 10px;
+}
+/* responsive------ */
+/* ----------Trainings and Exercises start */
+.exercies-section {
+  margin: 50px 90px;
+}
+.exercies-content h2 {
+  margin-top: 150px;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 0px;
+}
+.exercies-content p {
+  color: rgba(255, 255, 255, 0.5);
+  width: 591px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.exercies-img {
+  display: grid;
+  grid-template-areas: "img1 img2 img2 img2 img3";
+
+  /* width: 100%;
+  height: 100%; */
+}
+.img1 {
+  grid-area: img1;
+}
+.img2 {
+  grid-area: img2;
+}
+.img3 {
+  grid-area: img3;
+}
+.img4 {
+  grid-area: img4;
+}
+.img5 {
+  grid-area: img5;
+}
+.img6 {
+  grid-area: img6;
+}
+.exercies-img img {
+  width: 100%;
+  height: 100%;
+}
