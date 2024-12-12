@@ -322,3 +322,71 @@ li > a {
   margin-left: 20px;
   margin-top: -70px;
 }
+/* responsive */
+.bmi-section {
+  margin: 50px 90px;
+}
+.bmi-container {
+  margin-top: 150px;
+  width: 471px;
+  margin: auto;
+}
+.bmi-container h2 {
+  margin-top: 50px;
+  margin-bottom: 0px;
+  font-size: 48px;
+  font-weight: 900;
+}
+.bmi-container p {
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+}
+.bmi-calculator {
+  background: #222;
+  padding: 40px 40px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.bmi-fast-calculator {
+  width: 443px;
+}
+.bmi-secend-calculator {
+  width: 520px;
+}
+.bmi-fast-calculator {
+  height: 310px;
+}
+.bmi-fast-calculator h3 {
+  font-size: 28px;
+  font-weight: 900;
+}
+.bmi-fast-calculator table tr th {
+  padding: 15px;
+  justify-content: start;
+  justify-items: start;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.header-th > th {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+th {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+
+  font-weight: 400;
+}
+.bmi-secend-calculator h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 900;
+}
+.bmi-secend-calculator p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+}
